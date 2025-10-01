@@ -1,0 +1,292 @@
+@font-face {
+    font-family: yo;
+    src: url(./font/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: kk;
+    src: url(./font/modernline.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    color: #fff;
+    font-family: yo;
+}
+
+.head {
+    width: 100%;
+    min-height: 30vh;
+    background-color: #162b45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2vh;
+    padding: 3vh 5vw;
+}
+
+.head h1 {
+    font-family: yo;
+    font-size: clamp(24px, 4vw, 60px);
+    text-align: center;
+}
+
+.head p {
+    font-family: kk;
+    font-size: clamp(14px, 1.5vw, 24px);
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.about {
+    width: min(90vw, 1200px);
+    min-height: 40vh;
+    margin: 0 auto 2vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1vw;
+    color: #000;
+    padding: 4vh 5vw;
+}
+
+.about h1 {
+    font-family: yo;
+    font-size: clamp(24px, 4vw, 60px);
+    text-align: center;
+}
+
+.about p {
+    font-size: clamp(14px, 1.5vw, 18px);
+    text-align: center;
+    margin-top: 2vh;
+    line-height: 1.6;
+    max-width: 90%;
+}
+
+.edu {
+    width: min(90vw, 1200px);
+    min-height: 40vh;
+    margin: 0 auto 2vh;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1vw;
+    color: #000;
+    padding: 4vh 5vw;
+}
+
+.edu h1 {
+    font-family: yo;
+    font-size: clamp(24px, 4vw, 60px);
+    text-align: center;
+}
+
+.edu ul {
+    list-style: none;
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edu ul li {
+    width: min(90%, 600px);
+    font-size: clamp(12px, 1.5vw, 16px);
+    margin-top: 1.5vh;
+    border: 1px solid #000;
+    padding: 2vh 3vw;
+    border-radius: 1vw;
+    text-align: center;
+    background-color: #fff;
+}
+
+.skill {
+    width: min(90vw, 1200px);
+    min-height: 40vh;
+    margin: 0 auto 2vh;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1vw;
+    color: #000;
+    padding: 4vh 5vw;
+}
+
+.skill h1 {
+    font-family: yo;
+    font-size: clamp(24px, 4vw, 60px);
+    text-align: center;
+}
+
+.skill ul {
+    list-style: none;
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill ul li {
+    width: min(90%, 600px);
+    font-size: clamp(14px, 1.8vw, 20px);
+    border: 1px solid #000;
+    padding: 1.5vh 2vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-top: 1vh;
+    background-color: #fff;
+}
+
+.project {
+    width: min(90vw, 1200px);
+    min-height: 40vh;
+    margin: 0 auto 2vh;
+    background-color: lightyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1vw;
+    color: #000;
+    padding: 4vh 5vw;
+}
+
+.project h1 {
+    font-family: yo;
+    font-size: clamp(24px, 4vw, 60px);
+    text-align: center;
+}
+
+.project ul {
+    list-style: none;
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project ul li {
+    width: min(90%, 600px);
+    font-size: clamp(14px, 1.8vw, 20px);
+    border: 1px solid #000;
+    padding: 1.5vh 2vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-top: 1vh;
+    background-color: #fff;
+}
+
+.contact {
+    width: min(90vw, 1200px);
+    min-height: 40vh;
+    margin: 0 auto 2vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1vw;
+    color: #000;
+    padding: 4vh 5vw;
+}
+
+.contact h1 {
+    font-family: yo;
+    font-size: clamp(24px, 4vw, 60px);
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact ul li {
+    width: min(90%, 600px);
+    font-size: clamp(14px, 1.8vw, 20px);
+    border: 1px solid #000;
+    padding: 1.5vh 2vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-top: 1vh;
+    background-color: #fff;
+}
+
+.contact ul li a {
+    font-size: clamp(12px, 1.2vw, 16px);
+    text-decoration: none;
+    color: #000;
+    word-break: break-word;
+}
+
+.footer {
+    width: 100%;
+    min-height: 10vh;
+    background-color: #162b45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vh 5vw;
+}
+
+.footer p {
+    font-size: clamp(12px, 1.5vw, 18px);
+    font-family: kk;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .head {
+        padding: 4vh 8vw;
+    }
+    
+    .about, .edu, .skill, .project, .contact {
+        width: 95vw;
+        padding: 3vh 6vw;
+    }
+    
+    .edu ul li,
+    .skill ul li,
+    .project ul li,
+    .contact ul li {
+        width: 100%;
+        padding: 2vh 4vw;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .head {
+        min-height: 25vh;
+    }
+    
+    .about, .edu, .skill, .project, .contact {
+        min-height: auto;
+        border-radius: 2vw;
+    }
+}
